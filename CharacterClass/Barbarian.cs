@@ -6,11 +6,55 @@ using System.Threading.Tasks;
 
 namespace CharacterClass
 {
+    public enum PrimaryStat
+    {
+        Charisma = 1,
+        Constitution,
+        Dexterity,
+        Intelligence,
+        Strength,
+        Wisdom
+    }
+
+    public enum Save
+    {
+        Charisma = 1,
+        Constitution,
+        Dexterity,
+        Intelligence,
+        Strength,
+        Wisdom
+    }
     public class Barbarian
     {
-        //health (hit die)
-        //primary stat
-        //saves (stronger stats)
+        public Barbarian() { }
+
+        public Barbarian(int health, PrimaryStat pStat, Save saveOne, Save saveTwo)
+        {
+            Health = health;
+            PrimaryStat = pStat;
+            SaveOne = saveOne;
+            SaveTwo = saveTwo;
+        }
+
+        private int _health { get; set; }
+        public int Health 
+        { 
+            get { return _health; } 
+            set
+            {
+                if (value == 12)
+                    Console.WriteLine("You have full health: 12hp.");
+                else if (value <= 0)
+                    Console.WriteLine("LOL U DED.");
+                else
+                    _health = value;
+            }
+        }
+        public PrimaryStat PrimaryStat { get; set; }
+        public Save SaveOne { get; set; }
+        public Save SaveTwo { get; set; }
+        
     }
 
 }

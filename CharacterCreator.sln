@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterCreator.Data", "Ch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterCreator.Models", "CharacterCreator.Models\CharacterCreator.Models.csproj", "{29F7D7C7-08CF-4E61-A2C2-BFC8895B648D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterClass", "CharacterClass\CharacterClass.csproj", "{BDB67BEB-814C-4F4A-AE7A-192F620F0CCF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{29F7D7C7-08CF-4E61-A2C2-BFC8895B648D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29F7D7C7-08CF-4E61-A2C2-BFC8895B648D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29F7D7C7-08CF-4E61-A2C2-BFC8895B648D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDB67BEB-814C-4F4A-AE7A-192F620F0CCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB67BEB-814C-4F4A-AE7A-192F620F0CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB67BEB-814C-4F4A-AE7A-192F620F0CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDB67BEB-814C-4F4A-AE7A-192F620F0CCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
