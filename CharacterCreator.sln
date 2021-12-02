@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterCreator", "CharacterCreator\CharacterCreator.csproj", "{E6BD4D40-07C4-41CA-A84A-28CDD423FE8B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterCreator.Data", "CharacterCreator.Data\CharacterCreator.Data.csproj", "{CCCB42D8-27AE-4B64-99DE-CE7A7F308517}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterCreator.Models", "CharacterCreator.Models\CharacterCreator.Models.csproj", "{29F7D7C7-08CF-4E61-A2C2-BFC8895B648D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{E6BD4D40-07C4-41CA-A84A-28CDD423FE8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6BD4D40-07C4-41CA-A84A-28CDD423FE8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6BD4D40-07C4-41CA-A84A-28CDD423FE8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCCB42D8-27AE-4B64-99DE-CE7A7F308517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCCB42D8-27AE-4B64-99DE-CE7A7F308517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCCB42D8-27AE-4B64-99DE-CE7A7F308517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCCB42D8-27AE-4B64-99DE-CE7A7F308517}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29F7D7C7-08CF-4E61-A2C2-BFC8895B648D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29F7D7C7-08CF-4E61-A2C2-BFC8895B648D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29F7D7C7-08CF-4E61-A2C2-BFC8895B648D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29F7D7C7-08CF-4E61-A2C2-BFC8895B648D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
